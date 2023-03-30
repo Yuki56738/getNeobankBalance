@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 selenium = "*"
+pandas = "*"
+matplotlib = "*"
+plotly = "*"
 
 [dev-packages]
 

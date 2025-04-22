@@ -27,7 +27,6 @@ dldir_path = Path('./').resolve()
 
 print(dldir_path)
 
-# ヘッドレスモードを有効にする
 options = ChromeOptions()
 options.add_argument('--headless')
 options.add_experimental_option("prefs", {
